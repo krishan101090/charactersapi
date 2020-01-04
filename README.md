@@ -1,3 +1,9 @@
+Env. setup
+Node
+https://nodejs.org/en/
+
+inside /charactersapi directory do npm install for dependencies
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
