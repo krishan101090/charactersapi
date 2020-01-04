@@ -1,12 +1,22 @@
 Deployed on Netlify
 Live:  https://keen-euclid-6c2833.netlify.com/
 
+##################
+
+Techologies and tooling
+ReactJS With Redux, Middleware: Saga, Rest API Library Axios, Linting, Husky Pre-commit hooks
+
+##################
+Used API from https://rickandmortyapi.com/
+##################
+
 Env. setup
+
 Node
 https://nodejs.org/en/
 
 inside /charactersapi directory do npm install for dependencies
-
+##################
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
