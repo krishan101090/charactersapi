@@ -11,7 +11,7 @@ function App() {
         <Header />
         <main>
           <Route exact path="/" component={Home} />
-          <Route path="/characters" component={Characters} />
+          <Route path="/characters/" component={Characters} />
         </main>
       </Router>
     </div>
