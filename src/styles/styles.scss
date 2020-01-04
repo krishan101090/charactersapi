@@ -1,0 +1,12 @@
+// import all the custom scss files here
+
+// Common files
+@import "./common/breakpoints";
+@import "./common/variables";
+@import "./common/grid";
+
+@import "./global.scss";
+// Components Files
+
+@import './components/header.scss';
+

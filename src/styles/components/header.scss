@@ -1,0 +1,45 @@
+header {
+  background: $global-grey-1;
+  .headerWrap {
+    display: flex;
+    align-items: center;
+    max-width: $max-width;
+    margin: 0 auto;
+    justify-content: space-between;
+    height: 70px;
+    padding: 0 40px;
+    .title{
+        font-size: 30px;
+        @include breakpoint(desktop-below) {
+          font-size: 16px;
+        }
+        color: white;
+    }
+  }
+  nav {
+    ul {
+      display: flex;
+    }
+    ul,
+    li {
+      padding: 0;
+      list-style: none;
+    }
+    li {
+      margin-right: 20px;
+      &:nth-last-child(1) {
+        margin-right: 0;
+      }
+      a {
+          font-size: 20px;
+        color: white;
+        text-decoration: none;
+        &.is-active {
+          color: orange;
+          text-decoration: underline;
+
+        }
+      }
+    }
+  }
+}
