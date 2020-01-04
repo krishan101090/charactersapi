@@ -1,3 +1,6 @@
+Deployed on Netlify
+Live:  https://keen-euclid-6c2833.netlify.com/
+
 Env. setup
 Node
 https://nodejs.org/en/
